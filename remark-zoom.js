@@ -20,6 +20,7 @@
 
 var ZOOM_TEXT_SELECTOR =
             ".remark-slide-content p"
+    + "," + "div.remark-slide-content > ul"
     + "," + ".remark-slide-content .remark-code-line"
     ;
 
@@ -30,6 +31,7 @@ var ZOOM_IMG_SELECTOR =
 /*  // works for Chrome, but not for Firefox
 var ZOOM_TEXT_SELECTOR =
             ".remark-visible .remark-slide-content p"
+    + "," + ".remark-visible div.remark-slide-content > ul"
     + "," + ".remark-visible .remark-slide-content .remark-code-line"
     ;
 
